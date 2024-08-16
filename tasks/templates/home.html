@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bem-vindo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            margin-bottom: 40px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 25px;
+            margin: 10px;
+            font-size: 16px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bem-vindo ao Sistema de Gerenciamento de Tarefas!</h1>
+
+    <a href="/tasks/" class="btn">Ver Tarefas</a>
+    <a href="/swagger/" class="btn">Documentação da API (Swagger)</a>
+    <a href="/admin/login/" class="btn">Login Admin</a>
+    <a href="/tasks/1/" class="btn">Ver Detalhes de uma Tarefa (ID 1)</a>
+    <a href="/api/token/" class="btn">Obter Token JWT</a>
+    <a href="/api/token/refresh/" class="btn">Renovar Token JWT</a>
+</body>
+</html>
